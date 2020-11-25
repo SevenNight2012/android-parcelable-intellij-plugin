@@ -3,7 +3,6 @@ out/
 *.iml
 .DS_Store
 build/
-*.zip
 .gradle
 # Build output
 android-parcelable-intellij-plugin.jar
