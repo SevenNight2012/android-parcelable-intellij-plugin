@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.mrcd'
-version '1.0.1'
+version '1.0.2'
 
 repositories {
     mavenCentral()
@@ -21,7 +21,7 @@ def pluginsDependencies = ['java',
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2020.1.1'
+    version '2020.2.3'
     setPlugins(*pluginsDependencies)
 }
 patchPluginXml {
@@ -29,5 +29,5 @@ patchPluginXml {
       First version,copy from Android Parcelable code generator
     """
     sinceBuild "192"
-    untilBuild "201.*"
+    untilBuild "202.*"
 }
